@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+}
+
+.display-flex {
+    display: flex;
+    height: 30px;
+
+}
+
+.gap {
+    display: flex;
+    gap: 20px;
+}
+
+.three-line {
+    width: 18px;
+}
+
+.margin-top-5px {
+    margin-top: 5px;
+}
+
+.logo-text {
+    display: flex;
+    text-align: center;
+    gap: 2px;
+}
+
+.youtube-logo {
+    width: 70px;
+}
+
+.country-code {
+    font-size: 10px;
+    margin: 0 0 20px 3px;
+    font-family: "Roboto", sans-serif;
+    color: #7f7f7f;
+}
+
+.first-item {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.align-item {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.search-text {
+    font-size: 13px;
+    min-width: 350px;
+    padding: 0 0 0 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid grey;
+}
+
+.search-logo {
+    width: 20px;
+}
+
+.logo-search:hover {
+    background-color: rgba(80, 75, 75, 0.267);
+    cursor: pointer;
+}
+
+.logo-search {
+
+    border-radius: 0 40px 40px 0;
+    max-width: 50px;
+    background-color: #F0F0F0;
+    padding: 5px 13px;
+    border: 1px solid #C6C6C6;
+}
+
+.color-light-gry {
+    color: gray;
+}
+.font-10{
+    font-size: 10px;
+}
+.font-11 {
+    font-size: 11px;
+    padding-bottom: 2px;
+    color: #7D7D7D;
+}
+
+.font-14 {
+    font-size: 14px;
+    padding-bottom: 2px;
+    color: #7D7D7D;
+}
+
+.border:hover {
+    background-color: rgba(75, 72, 72, 0.089);
+}
+
+.border {
+    border: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    min-width: 420px;
+    padding: 5px 0 5px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 12px;
+}
+
+.microphone-logo {
+    width: 17px;
+
+
+}
+
+.second-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.phone:hover {
+    background-color: rgba(75, 72, 72, 0.342);
+    cursor: pointer;
+}
+
+.phone {
+    border-radius: 19px;
+    padding-left: 9px;
+    background-color: #E5E5E5;
+    width: 35px;
+    height: 35px;
+    display: flex;
+
+}
+
+.plus-sign {
+    width: 19px;
+
+}
+
+.create-sign:hover {
+    background-color: rgba(75, 72, 72, 0.089);
+    cursor: pointer;
+}
+
+.create-sign {
+    border: 1px solid gainsboro;
+    max-width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+    padding: 5px 9px;
+}
+
+.bell-icon:hover {
+    background-color: rgba(75, 72, 72, 0.089);
+    border-radius: 20px;
+    padding: 5px 0 2px 4px;
+    cursor: pointer;
+}
+
+.bell-icon {
+    width: 49px;
+    display: flex;
+}
+
+.third-item {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 10px;
+
+}
+
+.main-logo:hover {
+    cursor: pointer;
+    background-color: #7D7D7D;
+    padding: 1px;
+}
+
+.main-logo {
+    width: 25px;
+    border-radius: 20px;
+}
+
+.bell {
+    background-color: red;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-right: 15px;
+    width: 35px;
+    height: 15px;
+}
+
+.aside-bar {
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.width {
+    width: 18px;
+}
+
+.home-page:hover {
+    cursor: pointer;
+    background-color: #7f7f7f54;
+}
+
+.home-page {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    max-width: 154px;
+    background-color: #F2F2F2;
+    padding: 5px 0 6px 13px;
+    border-radius: 8px;
+    margin: 0 0 2px 11px;
+
+}
+
+.home-text {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.shorts-logo:hover {
+    cursor: pointer;
+    background-color: #F2F2F2;
+}
+
+.shorts-logo {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    max-width: 154px;
+    margin-left: 13px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 8px;
+}
+
+.widths {
+    width: 20px;
+}
+
+h5 {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.top-aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.border-line {
+    border: 1px solid rgba(184, 179, 179, 0.144);
+    margin-top: 10px;
+    width: 190px;
+}
+
+.center-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 7px;
+}
+
+h6 {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.half-arrow {
+    width: 22px;
+}
+
+.first-aside:hover {
+    background-color: #c6c6c634;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.first-aside {
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    padding: 5px 0 0 15px;
+}
+
+
+
+.channel-name {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 0 20px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+
+    display: flex;
+    border-radius: 5px;
+    background-color: blue;
+}
+.dots-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.dots-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    text-align: center;
+    align-items: center;
+}
+.dots-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    text-align: center;
+    align-items: center;
+}
+
+.half-arrow-2 {
+    width: 30px;
+    margin-left: 10px;
+}
+.third-aside:hover{
+    background-color:#EBEBEB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.third-aside {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    width: 90%;
+}
+
+.main-div {
+
+    display: block;
+    width: 100%;
+    padding: 0 20px 50px 0;
+    overflow: hidden;
+}
+
+.active-button {
+    color: white;
+    background-color: black !important;
+}
+
+.content-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    overflow: scroll;
+    padding-bottom: 10px;
+}
+
+.contents:hover {
+    cursor: pointer;
+}
+
+.contents {
+    padding: 5px 9px;
+    border: none;
+    border-radius: 5px;
+    font-family: Roboto, Arial, sans-serif;
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: #F2F2F2;
+}
+
+.first-page {
+    display: flex;
+    gap: 15px;
+}
+
+.video-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+}
+
+.channel-logo {
+    width: 30px;
+    border-radius: 15px;
+}
+
+.using-hello {
+    padding: 10px;
+}
+
+.using-hello:hover {
+    background-color: #7d7d7d27;
+    border-radius: 10px;
+
+
+}
+.logotext:hover{
+    background-color:#EBEBEB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logotext {
+    display: flex;
+    gap: 12px;
+    padding: 5px 7px;
+    text-decoration: none;
+    color: black;
+}
+
+.small-logo {
+    width: 16px;
+    border-radius: 20px;
+    height: 16px;
+}
+
+.samll-logo {
+    width: 20px;
+}
+
+.describe-our-video {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.videos {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.svg {
+    width: 12px;
+}
+
+.short-logo-main {
+    width: 25px;
+}
+
+.shorts-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.logo-short {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.text-short {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.shorts-video {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 9px;
+    margin-top: 20px;
+}
+
+.short-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 270px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.shorts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.describe-our-shorts {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+
+
+}
+
+.dsipay-flex {
+    display: flex;
+    gap: 5px;
+}
